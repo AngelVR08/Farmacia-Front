@@ -1,0 +1,75 @@
+/* ModificarVoucher.css */
+
+.admin-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-row {
+    margin-bottom: 20px;
+  }
+  
+  .voucher-details {
+    margin-top: 20px;
+  }
+  
+  .voucher-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .voucher-item img {
+    max-width: 100px; /* Establece el ancho máximo de la imagen */
+    max-height: 100px; /* Establece la altura máxima de la imagen */
+    width: auto; /* Ajusta el ancho automáticamente */
+    height: auto; /* Ajusta la altura automáticamente */
+    margin-top: 10px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  strong {
+    color: #555;
+  }
+  
+  input,
+  button {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  

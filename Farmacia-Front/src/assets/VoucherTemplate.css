@@ -1,0 +1,55 @@
+.voucher-template {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #fff;
+  }
+  
+  .voucher-template h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .voucher-template .date {
+    text-align: right;
+    font-style: italic;
+  }
+  
+  .voucher-template h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .voucher-template table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .voucher-template th, .voucher-template td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .voucher-template th {
+    background-color: #f2f2f2;
+  }
+  
+  .voucher-template .summary {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .voucher-template .total {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .voucher-template .footer {
+    margin-top: 30px;
+    text-align: center;
+    font-style: italic;
+  }
