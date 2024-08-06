@@ -1,0 +1,59 @@
+/* Estilo para la página de ventas */
+.sales-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Tres columnas iguales */
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    max-width: 1200px; /* Ajustar el contenedor al ancho máximo deseado */
+    margin: 0 auto; /* Centrar el contenedor en la página */
+  }
+  #one div{
+    display: grid;
+    text-align: justify;
+    justify-content: center;
+  }
+  /* Estilo para cada tarjeta de venta */
+  .sale-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .sale-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sale-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .sale-card p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .sale-card p.total {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Media queries para responsividad */
+  @media (max-width: 1024px) {
+    .sales-grid {
+      grid-template-columns: repeat(2, 1fr); /* Dos columnas para tablets */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sales-grid {
+      grid-template-columns: 1fr; /* Una columna para móviles */
+    }
+  }
+  

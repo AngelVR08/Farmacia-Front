@@ -1,0 +1,79 @@
+/* src/assets/styles/login.css */
+
+/* Estilos para la página de inicio de sesión */
+.login-page, .register-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.login-form, .register-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  max-width: 100%;
+  position: relative;
+  top: 100px;
+}
+
+.login-form h2, .register-form h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #333; /* Asegurar el color del texto */
+  background-color: #fff; /* Asegurar el fondo blanco */
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Enlaces centrados y de color azul */
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.link-container a {
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.link-container a:hover {
+  text-decoration: underline;
+}
